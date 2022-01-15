@@ -1,0 +1,90 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+}
+
+.header {
+  background-color: rgb(245, 170, 30);
+  color: white;
+  padding: 10px 0;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: rgb(63, 63, 196);
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+  transition: all 0.1s ease-in-out;
+}
+.card .title {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 0 5px;
+}
+
+.card .description {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 0 5px;
+}
+.card:hover {
+  transform: scale(120%, 120%);
+}
+.cardsContainer {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sideBar {
+  position: fixed;
+  width: 400px;
+  height: 90%;
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+.sideBar p {
+  font-size: 20px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: rgb(253, 67, 67);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
